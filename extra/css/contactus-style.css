@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1400px;
+    width: 100%;
+    font-family: 'Cardo', serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left {
+    width: 15%;
+    height: 100%;
+    background-color: #2a2a2a;
+    color: #E9E9E9;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-height: 4000px;
+    position: sticky;
+    left: 0;
+
+}
+
+.title {
+  height: 15%;
+  width: 100%;
+  font-size: 3.4em;
+  text-align: center;
+}
+
+.aside-block login {
+  margin: 0;
+  padding: 0;
+}
+
+.form-login .button {
+  color: lightblue;
+
+}
+
+.mainmenu {
+  margin: -92px 0 0 0;
+  background-color: #2a2a2a;
+  padding: 0;
+  max-width: 2000px;
+}
+
+.page-nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page-nav li a {
+  color: #E9E9E9;
+  font-size: 1.3em;
+  padding: 0em;
+  display: block;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.page-nav li a:hover {
+  background-color: gray;
+  animation: mymove .15s 1;
+}
+
+
+/* Right container, holds the food menu*/
+.container-right {
+  width: 100%;
+}
+
+.background {
+  height: 30%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(http://boydgaming.mediaroom.com/download/California+Noodle+House.JPG);
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+  text-align: center;
+}
+
+#contact-us-desc {
+  text-align: center;
+}
